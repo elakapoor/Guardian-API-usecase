@@ -7,6 +7,7 @@
 * [Setup](#setup)
 * [File Structure](#file-structure)
 * [File Output](#file-output)
+* [Automate Email](#automate-email)
 
 ## General info
 The project uses the Guardian API for the web scraping of all articles related to Justin Trudeau.
@@ -85,3 +86,12 @@ Following are the description of each output:
 3. <b>article_numbers_2022-04-03.jpeg: </b> The number of articles published over time.
 4. <b>articles_more_than_mean.jpeg: </b> Graph shows mean of number article published.
 5. <b>articles_with_outliers.jpeg: </b> Graph shows the distribution when number of articles published are different from normal.
+
+## Automate Email
+To automate sending e-mails at specific times, for example every day at 4 a.m, we can use Crontab.
+```
+-crontab -l # this command line will show you all running crons
+- crontab -e # this command line will let you edit crons
+# past this command line to run your python script every day at 9.am
+- 0 9 * * * python3 filename.py
+```

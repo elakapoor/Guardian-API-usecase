@@ -181,10 +181,10 @@ def getInfo(api_key, subject, receiver_email_address, sender_email_address, send
 if __name__ == '__main__':
 
 
-    MY_API_KEY = "3a303bd2-1883-4d5b-b874-7ca042d08ce2"
+    MY_API_KEY = "API KEY"
     subject = "Articles about Canadian Prime Minister Justin Trudeau till"
-    receiver_email_address = ["shubhamela@gmail.com", "mehraela@gmail.com"]
-    sender_email_address = "mehraela@gmail.com"
-    sender_password = "elashubham2606"
+    receiver_email_address = ["example1@gmail.com", "example2@gmail.com"]
+    sender_email_address = "example1@gmail.com"
+    sender_password = "example password"
 
     getInfo(MY_API_KEY, subject, receiver_email_address, sender_email_address, sender_password)

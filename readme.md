@@ -74,5 +74,5 @@ html content.
 combination of above two steps. But it will not go in detail analysis as done by the 
 collect_article.py file. The objective of the file is to send the updated data to the users.
 
-<b>CaseStudy.ipynb: </b This file shows the step by step data collection process and analysis done
+<b>CaseStudy.ipynb: </b> This file shows the step by step data collection process and analysis done
 

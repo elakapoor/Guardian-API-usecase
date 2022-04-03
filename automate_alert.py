@@ -63,9 +63,9 @@ def email_func(subject, receiver_email_address, sender_email_address, sender_pas
 
 if __name__ == '__main__':
     subject = "Articles about Canadian Prime Minister Justin Trudeau till"
-    receiver_email_address = ["shubhamela@gmail.com", "mehraela@gmail.com"]
-    sender_email_address = "mehraela@gmail.com"
-    sender_password = "elashubham2606"
+    receiver_email_address = ["example1@gmail.com", "example2@gmail.com"]
+    sender_email_address = "example@gmail.com"
+    sender_password = "example password"
 
     email_func(subject, receiver_email_address, sender_email_address, sender_password)
 

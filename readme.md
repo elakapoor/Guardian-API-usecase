@@ -88,7 +88,7 @@ Following are the description of each output:
 5. <b>articles_with_outliers.jpeg: </b> Graph shows the distribution when number of articles published are different from normal.
 
 ## Automate Email
-To automate sending e-mails at specific times, for example every day at 4 a.m, we can use Crontab.
+To automate sending e-mails at specific times, for example every day at 9 a.m, we can use Crontab.
 ```
 -crontab -l # this command line will show you all running crons
 - crontab -e # this command line will let you edit crons

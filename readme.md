@@ -2,10 +2,11 @@
 <p>The app is created in pycharm using python, pandas and plotly</p>
 <h3>Table of Content</h3>
 
-* [General info](#general-info)
+* [General Info](#general-info)
 * [Requirements](#requirements)
 * [Setup](#setup)
-* [File structure](#file-structure)
+* [File Structure](#file-structure)
+* [File Output](#file-output)
 
 ## General info
 The project uses the Guardian API for the web scraping of all articles related to Justin Trudeau.
@@ -74,5 +75,13 @@ html content.
 combination of above two steps. But it will not go in detail analysis as done by the 
 collect_article.py file. The objective of the file is to send the updated data to the users.
 
-<b>CaseStudy.ipynb: </b> This file shows the step by step data collection process and analysis done
+<b>CaseStudy.ipynb: </b> This file shows the step by step data collection process and analysis done.
 
+## File Output
+When the collect_article.py file is executed the outputs in form of csv files and jpeg images are created.
+Following are the description of each output:
+1. <b>articles_justin_trudeau 2022-04-03.csv:</b> csv file consist of data collected during web scraping.
+2. <b>number_of_articles_published.csv: </b> The file tells about the number of articles published per day
+3. <b>article_numbers_2022-04-03.jpeg: </b> The number of articles published over time.
+4. <b>articles_more_than_mean.jpeg: </b> Graph shows mean of number article published.
+5. <b>articles_with_outliers.jpeg: </b> Graph shows the distribution when number of articles published are different from normal.

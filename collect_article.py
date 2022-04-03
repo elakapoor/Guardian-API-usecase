@@ -185,7 +185,7 @@ def getArticle(api_key):
 
 if __name__ == '__main__':
     today = date.today()
-    MY_API_KEY = "3a303bd2-1883-4d5b-b874-7ca042d08ce2"
+    MY_API_KEY = "API KEY"
     df_new, df_filter_count = getArticle(MY_API_KEY)
     print(df_new.shape)
 
